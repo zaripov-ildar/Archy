@@ -1,0 +1,12 @@
+-pack, -p                          Package a file into an archive
+    Example:
+    -pack FILENAME.txt             Package a file into an archive FILENAME.txt.archy
+
+-unpack, -u                        Unpack a file from an archive
+
+    Example:
+    -u FILENAME.txt.archy          Create unpacked file FILENAME.txt
+    -u FILENAME.txt                Return an error
+
+-version                           Show version information
+-help                              Show this help and exit
