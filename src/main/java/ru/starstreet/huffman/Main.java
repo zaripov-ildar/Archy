@@ -4,10 +4,6 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-//        args = new String[]{
-////                "-p", "Victims/d.txt"
-//                "-u", "Victims/d.txt.archy"
-//        };
         Archy archy = new Archy();
         if (args.length == 0) {
             archy.help();
